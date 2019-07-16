@@ -4,7 +4,7 @@ export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <nav className="navbar navbar-expand-lg navbar-info bg-dark">
   <a className="navbar-brand" href="#">
     Savvor Suggestion Blog
     </a>
@@ -36,23 +36,24 @@ export default class Navbar extends Component {
       </li>
       <li className="nav-item dropdown">
         <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Contacts
+          ContactsList
         </Link>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
           <a className="dropdown-item" href="#">Action</a>
           <a className="dropdown-item" href="#">Another action</a>
           <div className="dropdown-divider"></div>
-          <a className="dropdown-item" href="#">Something else here</a>
+          <a className="dropdown-item" href="#">Suggestions</a>
         </div>
       </li>
       <li className="nav-item">
-        <Link className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</Link>
+        <Link className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Suggestions
+        </Link>
       </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
 
-      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button className="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>

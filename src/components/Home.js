@@ -5,7 +5,7 @@ export default class Home extends Component {
     render() {
         return (
             <div className='container'>
-                <h1>Savvor Restaurant and Lounge Survey and Suggestion Box
+                <h1>Savvor Restaurant and Lounge Survey and Suggestion Box 
                 <h1></h1>Celebrate.
 
                 <h1>Live Music, Catering 
