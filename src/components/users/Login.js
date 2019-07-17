@@ -83,10 +83,10 @@ export default class Login extends Component {
                             onChange = {this.onChange}
                         />
                     </div>
-                    <button className="btn btn-success btn-block">
+                    <button className="btn btn-info btn-block">
                         Login
                     </button>
-                    <Link className="btn btn-primary btn-block" to="/register">
+                    <Link className="btn btn-dark btn-block" to="/register">
                         Register
                     </Link>
                 </form>

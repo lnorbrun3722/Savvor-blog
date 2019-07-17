@@ -132,11 +132,11 @@ export default class Register extends Component {
                         />
                     </div>
                     <button
-                        className="btn btn-primary btn-block"
+                        className="btn btn-info btn-block"
                     >
                         Register
                     </button>
-                    <Link className="btn btn-danger btn-block" to="/login">
+                    <Link className="btn btn-dark btn-block" to="/login">
                         Cancel
                     </Link>
                 </form>

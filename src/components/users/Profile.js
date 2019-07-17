@@ -13,11 +13,11 @@ export default class Profile extends Component {
   };
 
   async componentDidMount() {
-    const isLoggedIn = await this.props.loggedIn();
-    if (isLoggedIn === 0) {
-      this.props.history.push('/login');
-      return;
-    }
+    // const isLoggedIn = await this.props.loggedIn();
+    // if (isLoggedIn === 0) {
+    //   this.props.history.push('/login');
+    //   return;
+    // }
 
     const uid = this.props.match.params.uid;
     const res = await axios.get(`/api/user/${uid}`);
@@ -145,7 +145,7 @@ export default class Profile extends Component {
               />
             </div>
             <Link
-              className='btn btn-primary btn-block'
+              className='btn btn-info btn-block'
               to={`/user/${this.props.match.params.uid}/website`}
             >
               Websites
@@ -153,22 +153,23 @@ export default class Profile extends Component {
             <button
               type='button'
               onClick={this.logout}
-              className='btn btn-danger btn-block'
+              className='btn btn-dark btn-block'
             >
               Logout
             </button>
             {role === 'admin' ? (
-              <Link className='btn btn-warning btn-block' to='/manage'>
+              <Link className='btn btn-info btn-block' to='/manage'>
                 Manage Users
               </Link>
             ) : null}
           </form>
         </div>
-        <nav className='navbar navbar-dark bg-primary fixed-bottom'>
+        <nav className='navbar navbar-dark bg-info fixed-bottom'>
           <span>
             <i className='fas fa-user' />
           </span>
         </nav>
+        <Link to='/about'>Go to About Page</Link>
       </div>
     );
   }

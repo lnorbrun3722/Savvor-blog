@@ -9,14 +9,15 @@ export default class Home extends Component {
                 <h1></h1>Celebrate.
 
                 <h1>Live Music, Catering 
-                </h1> Event designing services
+                </h1> & Event designing services
                 </h1>
                  <p>
                  We look forward to receiving your call for reservations of a table for your romantic evening, space for your work function, birthday parties or any celebration with friends.
                 Please feel free to leave suggestions with your information. 
 
                 </p>
-            <Link to='/about'>Go to About Page</Link>
+            <Link to='/about'>Go to About Us Page</Link>
+            
             </div>
         );
     }

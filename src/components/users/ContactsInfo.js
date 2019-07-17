@@ -1,14 +1,11 @@
 import React from 'react';
-import ContactsList from '/ContactsList';
+import { Link } from 'react-router-dom';
 
 let contacts = [{
-    name: ''
-    phone:''
-}, ''
-     name: ''
-     phone: ''
-
-    '
+    name: 'Savvor Restaurant Lounge'
+    phone:'857 250 2165'
+}, 
+     
 export default class Contact extends Component {
     render() {
         return (

@@ -4,7 +4,8 @@ export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-info bg-dark">
+                <nav className="navbar navbar-expand-lg navbar-dark
+           bg-info">
   <a className="navbar-brand" href="#">
     Savvor Suggestion Blog
     </a>
@@ -39,10 +40,10 @@ export default class Navbar extends Component {
           ContactsList
         </Link>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#">Action</a>
-          <a className="dropdown-item" href="#">Another action</a>
+          <a className="dropdown-item" href="#">Thoughts?</a>
+          <a className="dropdown-item" href="#">Suggestions?</a>
           <div className="dropdown-divider"></div>
-          <a className="dropdown-item" href="#">Suggestions</a>
+          <a className="dropdown-item" href="#">What could we do better?</a>
         </div>
       </li>
       <li className="nav-item">

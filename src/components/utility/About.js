@@ -7,9 +7,7 @@ export default class About extends Component {
             <div>
          
             <h1>Hello from your great friends at Savvor</h1>
-            <p>
-                
-            About Us, 
+            <p> About Us, 
             Soul Food and American Southern Cuisine
 
 
@@ -23,7 +21,7 @@ A robust menu awaits our patrons―replete with eclectic small plate options ins
 
 
             </p>
-                <Link to='/'>Go Back Home</Link>    
+                <Link to='/'>Go Back to Home Page</Link>    
             </div>
         );
     }
