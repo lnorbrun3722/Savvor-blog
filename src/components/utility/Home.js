@@ -6,7 +6,7 @@ export default class Home extends Component {
         return (
             <div className='container'>
                 <h1>Savvor Restaurant and Lounge Survey and Suggestion Box 
-                <h1></h1>Celebrate.
+                <h1><p></p>Celebrate With Us!
 
                 <h1>Live Music, Catering 
                 </h1> & Event designing services

@@ -87,10 +87,10 @@ export default class Profile extends Component {
     const { username, email, firstName, lastName, role } = this.state;
     return (
       <div>
-        <nav className='navbar navbar-dark bg-primary fixed-top'>
+        <nav className='navbar navbar-dark bg-info fixed-top'>
           <span className='navbar-brand mb-0 h1'>Profile</span>
           <button className='btn' form='profileForm' href='profile.html'>
-            <i className='fas fa-check' />
+            <i className='fas fa-user' />
           </button>
         </nav>
         <div className='container'>
@@ -169,7 +169,7 @@ export default class Profile extends Component {
             <i className='fas fa-user' />
           </span>
         </nav>
-        <Link to='/about'>Go to About Page</Link>
+        <Link to='/about'>Go to About Us Page</Link>
       </div>
     );
   }

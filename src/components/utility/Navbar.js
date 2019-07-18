@@ -32,12 +32,12 @@ export default class Navbar extends Component {
       </li>
       <li className="nav-item">
         <Link className="nav-link" to='/about'>
-          About Us
+          About Us <span className="sr-only">(current)</span>
           </Link>
       </li>
       <li className="nav-item dropdown">
         <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          ContactsList
+          Tell Us about Us 
         </Link>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
           <a className="dropdown-item" href="#">Thoughts?</a>
